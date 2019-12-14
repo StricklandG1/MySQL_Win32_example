@@ -141,7 +141,7 @@ std::string temp(LPSTR data)
 	MYSQL_RES* res;
 	conn = mysql_init(0);
 
-	conn = mysql_real_connect(conn, "localhost", "root", "Ilysem@4", "occ_veteran_club", 3306, nullptr, 0);
+	conn = mysql_real_connect(conn, "localhost", "root", "password", "occ_veteran_club", 3306, nullptr, 0);
 
 	if (!conn) return 0;
 
